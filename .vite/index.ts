@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite';
 import build from './build';
-import css from './css';
+import styles from './styles';
 import { BuildPlugins, DevPlugins } from './plugins';
 import server from './server';
 import defineOptions from './define';
 
 const defaultConfig = {
   define: defineOptions,
-  css,
+  css: styles,
 }
 
 // https://vitejs.dev/config/
