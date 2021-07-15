@@ -1,4 +1,4 @@
-import { ServiceIdentifier } from 'containers/typings';
+import { ServiceIdentifier } from 'containers/core';
 import { HttpErrorCallback } from './http.typings';
 
 export const HttpClientType: ServiceIdentifier<HttpClient> = Symbol('HttpClient');
